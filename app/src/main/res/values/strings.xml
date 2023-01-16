@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="quizzes">Quizzes</string>
+    <string name="enjoy_brain_power">Enjoy Brain Power</string>
+    <string name="welcome">Welcome</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="hint_enter_name">Name</string>
+    <string name="start">Start</string>
+    <string name="category">Category</string>
+    <string name="question">Question</string>
+    <string name="flags">Flags</string>
+    <string name="_0_10">0/10</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="e_g_john">e.g. John</string>
+    <string name="submit">Submit</string>
+    <string name="congratulations">Hey, Congratulations!</string>
+    <string name="play_again">Play again</string>
+    <string name="home_page">Home</string>
+    <string name="start_button">Start</string>
+</resources>

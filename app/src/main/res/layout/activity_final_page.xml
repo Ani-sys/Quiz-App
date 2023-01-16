@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".FinalPage">
+
+    <TextView
+        android:id="@+id/tvCongrats"
+        android:layout_width="378dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="130dp"
+        android:fontFamily="@font/karla"
+        android:text="@string/congratulations"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintDimensionRatio="5.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ivMedal"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_medal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCongrats" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/karla"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivMedal"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Username" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/karla"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvName"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="Your Score is 9 out of 10" />
+
+    <View
+        android:id="@+id/vPlayAgain"
+        android:layout_width="378dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button_background"
+        app:layout_constraintDimensionRatio="4.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvScore"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvPlay"
+        android:layout_width="221dp"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:fontFamily="@font/karla"
+        android:text="@string/play_again"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@id/vPlayAgain"
+        app:layout_constraintEnd_toEndOf="@id/vPlayAgain"
+        app:layout_constraintStart_toStartOf="@id/vPlayAgain"
+        app:layout_constraintTop_toTopOf="@id/vPlayAgain" />
+
+    <TextView
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:id="@+id/tvHome"
+        android:text="@string/home_page"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:fontFamily="@font/karla"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/vPlayAgain"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="20dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
